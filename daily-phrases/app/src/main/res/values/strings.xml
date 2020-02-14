@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Daily Phrases</string>
+    <string name="information">Click the button to see phrase of the day</string>
+    <string name="messageButton">See Phrase</string>
+</resources>

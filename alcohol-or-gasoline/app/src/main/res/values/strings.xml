@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Alcohol or Gasoline</string>
+    <string name="info">Know the best option for fueling your car</string>
+    <string name="hintAlcohol">Alcohol price ex.1.90</string>
+    <string name="hintGasoline">Gasoline price ex.2.90</string>
+    <string name="buttonCalculate">Calculate</string>
+    <string name="textViewChoose">No option chosen</string>
+</resources>

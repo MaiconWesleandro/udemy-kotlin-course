@@ -68,18 +68,33 @@
         app:layout_constraintTop_toBottomOf="@id/editTextGasoline" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/TextViewChoose"
+        android:id="@+id/textViewChoose"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/textViewChoose"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/buttonCalculate"
-        android:textSize="30sp"
-        android:layout_marginEnd="30dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        android:textStyle="bold"/>
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:text="@string/textViewChoose"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonCalculate" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewMessageErro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewChoose" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

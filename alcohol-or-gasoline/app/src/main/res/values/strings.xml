@@ -5,4 +5,7 @@
     <string name="hintGasoline">Gasoline price ex.2.90</string>
     <string name="buttonCalculate">Calculate</string>
     <string name="textViewChoose">No option chosen</string>
+    <string name="resultAlcohol">The best option is Alcohol</string>
+    <string name="resultGasoline">The best option is Gasoline</string>
+
 </resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Guidelines Netflix</string>
+    <string name="title">House Of Cards</string>
+    <string name="season">S1:E2</string>
+    <string name="timeInitial">01:00</string>
+    <string name="timeFinally">41:20</string>
+</resources>

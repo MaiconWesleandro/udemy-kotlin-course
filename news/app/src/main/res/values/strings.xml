@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="title">Apple can find stolen iPhone</string>
+    <string name="date">02/24/2020</string>
+    <string name="news">The Find application, native to the iPhone, started to find cell phones even when they are not connected to the Internet. A new version, announced by Apple at the WWDC 2019 congress, was developed to unify Find My iPhone and Find My Friends services in a single application - now called Find / Find. The system has the help of Bluetooth to ensure greater efficiency and security. So when the iPhone is turned on or plugged in again, how the changes will take effect.</string>
+    <string name="author">Techtudo</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+</resources>

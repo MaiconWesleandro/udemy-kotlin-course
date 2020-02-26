@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/menu_cliente"
+        app:layout_constraintStart_toStartOf="@id/imageViewLogo"
+        app:layout_constraintTop_toBottomOf="@id/imageViewLogo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/menu_empresa"
+        app:layout_constraintEnd_toEndOf="@id/imageViewLogo"
+        app:layout_constraintTop_toBottomOf="@id/imageViewLogo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/menu_servico"
+        app:layout_constraintStart_toStartOf="@id/buttonClient"
+        app:layout_constraintTop_toBottomOf="@id/buttonClient" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/menu_contato"
+        app:layout_constraintEnd_toEndOf="@id/buttonCompany"
+        app:layout_constraintTop_toBottomOf="@id/buttonCompany" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

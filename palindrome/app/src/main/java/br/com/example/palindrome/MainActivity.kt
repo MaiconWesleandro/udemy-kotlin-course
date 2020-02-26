@@ -10,6 +10,28 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        buttonCheck.setOnClickListener {
+            val textEdited = editTextInput.text.toString()
+            val messageEmpty = "fill in the field above"
 
+            if (textEdited.equals("")) {
+                textViewResult.text = messageEmpty
+            } else {
+                if (palindrome(textEdited)) {
+                    textViewResult.text = textEdited.plus(" is a palindrome")
+                } else {
+                    textViewResult.text = textEdited.plus(" is not a palindrome")
+                }
+            }
+        }
+    }
+
+    fun palindrome(word: String): Boolean {
+        var final = ""
+
+        for (char in word.length - 1 downTo 0) {
+            final += word[char]
+        }
+        return word == final
     }
 }

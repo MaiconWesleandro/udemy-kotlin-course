@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Palindrome</string>
+    <string name="title">Is it a palindrome? \nonly words</string>
+    <string name="informationHint">Insert here!</string>
+    <string name="buttonCheck">Check</string>
+</resources>

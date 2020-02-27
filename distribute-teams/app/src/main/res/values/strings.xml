@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Distribute Teams</string>
+    <string name="textViewTitlePlayers">Enter The Players Names</string>
+    <string name="textViewTitleTeams">Enter The Teams Names</string>
+    <string name="textViewTitleFinal">Result</string>
+</resources>

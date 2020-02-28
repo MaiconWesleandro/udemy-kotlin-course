@@ -1,0 +1,2 @@
+rootProject.name='Distribute Teams'
+include ':app'

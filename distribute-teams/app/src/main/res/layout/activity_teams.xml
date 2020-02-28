@@ -31,7 +31,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/editTextPlay1"
+        android:id="@+id/editTextTeam1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -41,14 +41,14 @@
         android:maxLines="1"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/editTextPlay2"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTeam2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
 
     <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/editTextPlay2"
+        android:id="@+id/editTextTeam2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -58,14 +58,14 @@
         android:maxLines="1"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/editTextPlay3"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTeam3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPlay1" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTeam1" />
 
     <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/editTextPlay3"
+        android:id="@+id/editTextTeam3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -75,14 +75,14 @@
         android:maxLines="1"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/editTextPlay4"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTeam4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPlay2" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTeam2" />
 
     <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/editTextPlay4"
+        android:id="@+id/editTextTeam4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -92,14 +92,14 @@
         android:maxLines="1"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/editTextPlay5"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTeam5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPlay3" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTeam3" />
 
     <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/editTextPlay5"
+        android:id="@+id/editTextTeam5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -109,15 +109,15 @@
         android:maxLines="1"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/appCompatButton"
+        app:layout_constraintBottom_toTopOf="@+id/buttonNext2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPlay4" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTeam4" />
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton"
+        android:id="@+id/buttonNext2"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginEnd="20dp"

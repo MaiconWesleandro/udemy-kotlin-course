@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cor Personalizada</string>
+    <string name="buttonSave">Salvar</string>
+    <string name="textViewInformation">Escolha uma cor de fundo</string>
+    <string name="radioButtonColorBlue">Azul</string>
+    <string name="radioButtonColorGreen">Verde</string>
+    <string name="radioButtonColorOrange">Laranja</string>
+</resources>

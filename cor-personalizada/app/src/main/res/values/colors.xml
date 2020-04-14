@@ -7,4 +7,6 @@
     <color name="radioButtonColorBlue">#495b7c</color>
     <color name="radioButtonColorOrange">#ffce26</color>
     <color name="radioButtonColorGreen">#009670</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
 </resources>
